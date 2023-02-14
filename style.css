@@ -1,0 +1,273 @@
+@media screen and (min-width: 360px) and (max-width: 480px) {
+  body {
+    margin: 0px;
+  }
+  
+  .parent1 {
+    border: 2px solid lightgray;
+    height: auto;
+    margin: 0 auto; 
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .heading {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-color: lightgray;
+    box-shadow: 0px 20px 120px lightgray;
+  }
+  
+  .j {
+    display: inline-block;
+    margin-left: 6%;
+    margin-right: 8px;
+    margin-bottom: 9px;
+    margin-top: 9px;  
+  }
+  
+  .k {
+    display: inline-block;
+    color: #00A5EC;
+    margin-bottom: 9px;
+    margin-top: 9px;
+  }
+  
+  .parent2 {  
+    text-align: center;
+    margin: 10px 0px 10px 0px; 
+  }
+  
+  .logo {
+    font-size: 20px;
+    top: 5px;
+    color: white;
+  }
+  
+  .button {
+    color: white;
+    background-color: #00A5EC;
+    padding: 7px 22px;
+    border: none;
+    border-radius: 2px;
+    margin: 20px 20px 12px  10px;
+    font-size: 0.5rem;
+  }
+  
+  .logo2 {
+    color: white;
+    background-color: #00A5EC;
+    border-radius: 50%;
+    padding: 6px;     
+    font-size: 40px;
+    font-weight: 60;
+  }
+  
+  .parent3 {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    justify-content: start;
+    padding-left: 6%;
+    padding-right: 6%;
+    background-color: #F7F7F7;
+    height: auto;
+  }
+  
+  .parent3:hover > * {
+    opacity: 0.5;
+  }
+  
+  .parent3:hover > *:hover {
+    opacity: 1;
+  }
+  
+  .child {
+    height: 300px;
+    width: 360px;
+    border: 1px solid lightgray;
+    margin: 6px;
+    border-radius: 5px;
+    background-color: white; 
+    font-family: sans-serif;
+  }
+    
+  .child:hover {
+    transition: 0.2s ease-in-out;
+    box-shadow: 0px 0px 50px 1px rgb(214, 213, 213);
+    cursor: pointer; 
+  }
+  
+  .h2 {
+    display: inline-block;
+    margin: 1px 10px;
+    font-size: medium;
+  }
+  
+  .heading2 {
+    color: #00A5EC;
+    font-size: 25px;
+    margin-left: 10%;
+  }
+  
+  .lable {
+    text-decoration: line-through;
+    color: rgb(201, 200, 200);
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    position: relative;
+    bottom: 1px;
+  }
+  
+  hr {
+    border: 0.5px solid rgb(230, 228, 228);
+  }
+  
+  input.style {
+    transform: scale(1.4);
+    margin-left: 10%;
+    margin-right: 8px;
+  }
+  
+  .index {
+    filter: brightness(0.5) blur(1px);
+    width: 100%;
+  }
+  
+  .newtask {
+    display: flex;
+    width: 100%;
+  }
+  
+  .newone {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 350px;
+    left: 10px;
+    height: 10rem;
+    width: 370px;
+  }
+  
+  .task {
+    background-color: white;
+    border: 1px solid gray;
+    height: 11rem;
+    width: 22rem;
+    border-radius: 5px;
+    font-family: sans-serif;
+  }
+  
+  .flexbox {
+    display: flex;
+    justify-content:space-between;
+  }
+  
+  .heading3 {
+    margin-top: 12px;
+  }
+  
+  .cross {
+    margin-top: 12px;
+    margin-right: 6px;
+    font-size: 25px;
+    color: gray;
+  }
+  
+  .box1 {
+    margin-top: 20px;
+  }
+  
+  .box2 {
+    width: 90%;
+    height: 22px;
+    display: flex; 
+    align-items: center;
+    margin-left: 4%;
+    padding-left: 5px;
+    border: none;
+    border-radius: 3px;
+    border-color: lightgray;
+    background-color: #f7f7f7;
+  }
+  
+  .left {
+    display: flex;
+    justify-content: end;
+  }
+  
+  .parent4 {
+    background-color: #F7F7F7;
+    border: 2px solid lightgray;
+    height: 920px;
+    margin: 0 auto; 
+  }
+  
+  .combine {
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    margin-top: 20px;
+    padding: 0px 0px;
+  }
+  
+  .arrow {
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    font-size: 15px;
+    padding: 4px;
+    position: relative;
+    top: 5px;
+  }
+  
+  .pluss {
+    background-color: #00A5EC;
+    color: white;
+    border-radius: 50%;
+    font-size: 15px;
+    padding: 6px;
+    position: relative;
+    top: 6px;
+  }
+  
+  .inchild {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  
+  .child1 {
+    height: 20em;
+    width: 23rem;
+    border: 1px solid lightgray;
+    margin: 6px;
+    border-radius: 5px;
+    background-color: white;
+    font-family: sans-serif;
+  }
+  
+  .child1:hover {
+    transition: 0.2s ease-in-out;
+    box-shadow: 0px 0px 50px 1px rgb(214, 213, 213);
+    cursor: pointer; 
+  }
+  
+  .trip {
+    color: #00A5EC;
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  .lable1 {
+    font-size: 20px;
+    position: relative;
+    bottom: 1px;
+  }
+}
