@@ -30,12 +30,12 @@ a{
   text-decoration: none; 
   color: black;
 }
-.link1{
- 
-  display: block;
 
+.link1{
+  display: block;
   text-align: end;
 }
+
 .link2{
   font-size: 20px;
   margin-left: 10px;
@@ -55,7 +55,6 @@ a{
       border: none;
       color: white;
       font-size: 25px;
-
 }
 
 .card-grp{
@@ -79,8 +78,7 @@ a{
 
 .para1{
   color:  rgb(46 184 230);
-  margin-left: 20px;
-  
+  margin-left: 20px; 
   font-family: 'Roboto', sans-serif;
   font-weight: 800;
 }
@@ -101,7 +99,6 @@ width: 20px;
 
 .filler{
   opacity: 0.5;
-  
 }
 
 .newtask{
@@ -122,8 +119,7 @@ width: 20px;
   width: 415px;
   height: 180px;
   margin: 20px;
-  border-radius: 10px;
-  
+  border-radius: 10px; 
 }
 
 #input1{
@@ -151,8 +147,7 @@ width: 20px;
   margin-left: 20px;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
-  margin-bottom: auto;
-  
+  margin-bottom: auto; 
 }
 
 .back1{
@@ -175,7 +170,6 @@ width: 20px;
 }
 
 .newcard{
-  
   background-color: white;
   width: 400px;
   height: 250px;
@@ -232,12 +226,10 @@ width: 20px;
   position: relative;
   top: 20px;
   left: 263px;
-  
 }
 
 .distance{
   margin-top: 15px;
- 
 }
 
 .card-grp1{
@@ -246,11 +238,9 @@ width: 20px;
   margin: 0px 36%;
 }
 
-
 .hori{
   opacity: 0.3;
 }
-
 
 .close{
   display: inline;
@@ -317,15 +307,13 @@ width: 20px;
       .card{
           width: 93vw;
           height: 45vh;
-          font-size: 1.7rem;
-         
+          font-size: 1.7rem; 
       }
 
       .card1{
           position: absolute;
           left: -68vw;
           width: 95vw;
-      
       }
 
       .newcard{
@@ -336,7 +324,6 @@ width: 20px;
           width: 25%;
           position: absolute;
           top: 15.5vh;
-
       }
 
       .close{
