@@ -1,52 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>todo_mobile</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <div class="parent1">
-        <div class="heading">
-            <h1 class="j">Tasks</h1>
-            <h1 class="k">List</h1>
-        </div>
-        <div class="parent2">
-            <div class="logo">
-                <a href="./addtask.html">
-                    <button class="logo2">+</button>
-                </a>
-            </div>
-        </div>
-        <div class="parent3">
-            <div class="child">
-                <h2 class="heading2">Trip to Paris</h2><hr>
-                <input type="checkbox" class="style" name="check" id="check" value="1" checked><label class="lable">Visit Church</label> <br>
-                <input type="checkbox" class="style" name="uncheck" id="check" value="2" ><label class="lable1">Shopping</label> 
-            </div>
-            <div class="child">
-                <h2 class="heading2">My to Do List</h2><hr>
-                <input type="checkbox" class="style"  name="check" id="check" value="1" checked><label class="lable">Visit Supermarket</label> <br>
-                <input type="checkbox" class="style"  name="uncheck" id="check" value="2" ><label class="lable1">Buy Vegetables</label>
-            </div>
-            <div class="child">
-                <h2 class="heading2">Movies I will Watch</h2><hr>
-                <input type="checkbox" class="style"  name="check" id="check" value="1" checked><label class="lable">Stranger things 4</label> <br>
-                <input type="checkbox" class="style"  name="uncheck" id="check" value="2" ><label class="lable1">Avenger Endgame</label>
-            </div>
-            <div class="child">
-                <h2 class="heading2">Daily Morning Routine for...</h2><hr>
-                <input type="checkbox" class="style"  name="check" id="check" value="1" checked><label class="lable">Wakeup at 5 AM</label> <br>
-                <input type="checkbox" class="style"  name="uncheck" id="check" value="2" ><label class="lable1">Sleep at 10 PM</label>
-            </div>
-            <div class="child">
-                <h2 class="heading2">Books to Read</h2><hr>
-                <input type="checkbox" class="style"  name="check" id="check" value="1" checked><label class="lable">Design of Everyday</label> <br>
-                <input type="checkbox" class="style"  name="uncheck" id="check" value="2" ><label class="lable1">Alchemist</label>
-            </div>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Page</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <h1 class="head1">Tasks <span id="word1">List</span></h1>
     </div>
-</body>
+
+    <div>
+      <nav class="add1">
+        <div>
+          <a class="link1" href="./addtask.html" >
+           <button class="button1">+</button></a>
+        </div>
+        <div><a class="link2" href="./addtask.html">Add New Task</a></div>
+      </nav>
+
+      <div class="card-grp">
+        <a href="./tasklist.html">
+          <form class="card">
+            <p class="para1">Trip to paris</p>
+            <hr class="hori" />
+            <input
+              type="checkbox"
+              value="Visit church"
+              checked="checked"
+              disabled
+            />
+            <label class="label1">Visit Church</label><br />
+            <input type="checkbox" value="shopping" disabled/>
+            <label class="label2">Shopping</label>
+          </form>
+        </a>
+
+        <div>
+          <form class="card">
+            <p class="para1">My To Do List</p>
+            <hr />
+            <input
+              type="checkbox"
+              value="Visit church"
+              checked="checked"
+              disabled
+            />
+            <label class="label1">Visit Supermarket</label><br />
+            <input type="checkbox" value="shopping" disabled />
+            <label class="label2">Buy vegetables</label>
+          </form>
+        </div>
+
+        <div>
+          <form class="card">
+            <p class="para1">Movies I will Watch</p>
+            <hr />
+            <input
+              type="checkbox"
+              value="Visit church"
+              checked="checked"
+              disabled
+            />
+            <label class="label1">Stranger Things 4</label><br />
+            <input type="checkbox" value="shopping" disabled />
+            <label class="label2">Avengers Endgame</label>
+          </form>
+        </div>
+
+        <div>
+          <form class="card">
+            <p class="para1">Daily Morning Routines for...</p>
+            <hr />
+            <input
+              type="checkbox"
+              value="Visit church"
+              checked="checked"
+              disabled
+            />
+            <label class="label1">Wake up at 5 AM</label><br />
+            <input type="checkbox" value="shopping" disabled/>
+            <label class="label2">Sleep at 10 PM</label>
+          </form>
+        </div>
+
+        <div>
+          <form class="card">
+            <p class="para1">Books to Read</p>
+            <hr />
+            <input
+              type="checkbox"
+              value="Visit church"
+              checked="checked"
+              disabled
+            />
+            <label class="label1">Design of Everday</label><br />
+            <input type="checkbox" value="shopping" disabled/>
+            <label class="label2">Alchemist</label>
+          </form>
+        </div>
+      </div>
+    </div>
+  
+  </body>
 </html>
